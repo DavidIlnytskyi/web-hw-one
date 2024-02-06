@@ -1,17 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hounter</title>
+        <link rel="icon" type="image/svg" href="images/logo.svg">
+    </head>
   <body>
+    <header class="header-line">
+        <img class="header-background-img" src="images/headerbackground.svg" alt="Background" />
+        <nav class="header-nav">
+            <div class="header-logo">
+                <img class="header-logo-img" src="images/logo.svg" alt="Hounter">
+                <span class="header-logo-text">Hounter</span>
+            </div>
+                <a class="header-link" href="#">About us</a>
+                <a class="header-link" href="#">Article</a>
+            <select class="language-select">
+                <option class="language-option">Property</option>
+            </select>
+            <button class="sign-up-button">Sign Up!</button>
+        </nav>
+      </header>
     <main>
-        <h1>Welcome to My Website</h1>  
+        <section class="info-section">
+            <aside>
+                <h2 class ="start-title">Find The Place To Live Your Dreams Easily Here</h2>
+                <h3 class ="start-subtitle">Everything you need about finding your place to live will be here, where it will be easier for you</h3>
+                <form action="/search" method="GET">
+                    <div class="search-container">
+                        <img class="search-icon" src="images/searchlogo.svg" alt="Logo">
+                        <input type="text" id="search" name="q" placeholder="Search for the location you want!">
+                        <button type="submit">Search</button>
+                    </div>
+                </form>
+                <h4>Our Partnership</h4>
+                <div class="partnership-links">
+                    <a href=""><img src="images/partnership-logos/traveloka.svg" alt="Traveloka"></a>
+                    <a href=""><img src="images/partnership-logos/tiket.svg" alt="Tiket"></a>
+                    <a href=""><img src="images/partnership-logos/airbnb.svg" alt="Airbnb"></a>
+                    <a href=""><img src="images/partnership-logos/tripadvisor.svg" alt="Tripadvisor"></a>
+                </div>
+            </aside>
+            <aside>
+                <img class="house-example" src="images/houseexample.png" alt="House"/>
+                <div class="house-example-barinfo">
+                    <div class="barinfo-image-row">
+                        <img src="images/house-example-subphotos/personOne.png" alt="Person One"></a>
+                        <img src="images/house-example-subphotos/personTwo.png" alt="Person Two"></a>
+                        <img src="images/house-example-subphotos/personThree.png" alt="Person Three"></a>
+                    </div>
+                    <div class="barinfo-text">
+                        <h2> 1K+ People</h2>
+                        <h1> Successfully Getting Home</h1>
+                    </div>
+                </div>
+                <div class="house-example-barinfo">
+                    <div class="barinfo-image-row">
+                        <img src="images/house-example-subphotos/SmallHouse.png" alt="Small house"></a>
+                    </div>
+                    <div class="barinfo-text">
+                        <h2> 56 Houses</h2>
+                        <h1> Sold Monthly</h1>
+                    </div>
+                </div>
+                <div class="house-example-barinfo">
+                    <div class="barinfo-image-row">
+                        <img src="images/house-example-subphotos/PersonFour.png" alt="Small house"></a>
+                    </div>
+                    <div class="barinfo-text">
+                        <h2> 4K...</h2>
+                        <h1> People...</h1>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="recommend-section">
+            <h1 class="recommend-text">Our Recommendation</h1>
+            <div class="recommend-header">
+                <h1 class="recommend-under-text"></h1>
+                <button> <img src="images/button-logos/house-logo.png" alt="House icon"><p class="button-text">House<p></button>
+                <button> <img src="images/button-logos/villa-logo.png" alt="Villa icon"><p class="button-text">Villa<p></button>
+                <button> <img src="images/button-logos/apartment-logo.png" alt="Apartment icon"><p class="button-text">Apartment<p></button>
+                <button> <img src="images/button-left-right/left.png" alt="Left-move"></button>
+                <button> <img src="images/button-left-right/right.png" alt="Right-move"></button>
+            </div>
+            <section class="house-seller-section">
+                <img src="images/house-sellers-house-images/house-one.png" alt="House photo">
+                <div class="house-seller-section-frame">
+                    <img src="images/house-sellers-logos/fire.svg" alt="Image" style="margin-right: 10px; max-width: 100px;">
+                    <p class="seller-section-frame">Popular</p>
+                </div>
+                <h2 class="seller-section-title">Roselands House</h2>
+                <h1 class="seller-section-subtitle">$ 35.000.000</h1>
+                <div class="house-seller-info">
+                    <img src="images/house-sellers-photo/seller-one.png" alt="Seller photo">
+                    <h2 class="seller-name">Dianne Russell</h2>
+                    <h1 class="seller-location">Manchester, Kentucky</h1>
+                </div>
+            </section>
+            <section class="house-seller-section">
+                <img src="images/house-sellers-house-images/house-two.png" alt="House photo">
+                <div class="house-seller-section-frame">
+                    <img src="images/house-sellers-logos/house.svg" alt="Image" style="margin-right: 10px; max-width: 100px;">
+                    <p class="seller-section-frame">New House</p>
+                </div>
+                <h2 class="seller-section-title">Woodlandside</h2>
+                <h1 class="seller-section-subtitle">$ 20.000.000</h1>
+                <div class="house-seller-info">
+                    <img src="images/house-sellers-photo/seller-two.png" alt="Seller photo">
+                    <h2 class="seller-name">Robert Fox</h2>
+                    <h1 class="seller-location">Dr. San Jose, South Dakota</h1>
+                </div>
+            </section>
+            <section class="house-seller-section">
+                <img src="images/house-sellers-house-images/house-three.png" alt="House photo">
+                <div class="house-seller-section-frame">
+                    <img src="images/house-sellers-logos/wallet.svg" alt="Image" style="margin-right: 10px; max-width: 100px;">
+                    <p class="seller-section-frame">Best Deals</p>
+                </div>
+                <h2 class="seller-section-title">The Old Lighthouse</h2>
+                <h1 class="seller-section-subtitle">$ 44.000.000</h1>
+                <div class="house-seller-info">
+                    <img src="images/house-sellers-photo/seller-three.png" alt="Seller photo">
+                    <h2 class="seller-name">Ronald Richards</h2>
+                    <h1 class="seller-location">Santa Ana, Illinois</h1>
+                </div>
+            </section>
+            <section class="house-seller-section">
+                <img src="images/house-sellers-house-images/house-four.png" alt="House photo">
+                <div class="house-seller-section-frame">
+                    <img src="images/house-sellers-logos/fire.svg" alt="Image" style="margin-right: 10px; max-width: 100px;">
+                    <p class="seller-section-frame">Popular</p>
+                </div>
+                <h2 class="seller-section-title">Cosmo's House</h2>
+                <h1 class="seller-section-subtitle">$ 22.000.000</h1>
+                <div class="house-seller-info">
+                    <img src="images/house-sellers-photo/seller-four.png" alt="Seller photo">
+                    <h2 class="seller-name">Santa Ana, Illinois</h2>
+                    <h1 class="seller-location">Preston Rd. Inglewood, Maine 98380</h1>
+                </div>
+            </section>
+
+        </section>
+
+        <img src="images/background-two.svg" alt="Background photo">
+
+        <section class="ready-sell-house">
+            <h1 class="recommend-text">Ready to Sell!</h1>
+            <h1 class="recommend-under-text">Let’s tour and see our house!</h1>
+            <h1 class="ready-sell-text">Houses recommended by our partners that have been curated to become the home of your dreams!</h1>
+            <div class="ready-sell-details">
+                <p class="ready-sell-details-title">House Detail</p>
+                <div class="house-characteristic">
+                    <img src="images/house-characteristics-logos/bed.png" alt="Bed photo">
+                    <p class="house-characteristic-text">4 Bedrooms</p>
+                </div>
+                <div class="house-characteristic">
+                    <img src="images/house-characteristics-logos/bath.png" alt="Bath photo">
+                    <p class="house-characteristic-text">2 Bathrooms</p>
+                </div>
+                <div class="house-characteristic">
+                    <img src="images/house-characteristics-logos/carpart.png" alt="Car photo">
+                    <p class="house-characteristic-text">1 Carpart</p>
+                </div>
+                <div class="house-characteristic">
+                    <img src="images/house-characteristics-logos/stairs.png" alt="Floors photo">
+                    <p class="house-characteristic-text">2 Floors</p>
+                </div>
+                <div class="ready-sell-house-seller">
+                    <img src="images/ready-sell-house-seller-form/seller-photo.png" alt="Seller photo">
+                    <h2 class="seller-name">Dianne Russell</h2>
+                    <h1 class="seller-job">Manager Director</h1>
+                </div>
+            </div>
+            <video width="720" height="360" controls>
+                <source src="house-video.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+        <section class="review-house">
+            <h1 class="recommend-text">See Our Review</h1>
+            <h1 class="review-text">What Our User Say About Us</h1>
+            <section>
+                <img src="images/review-house-photos/houseOne.png" alt="House photo">
+                <div class="house-review-frame">
+                    <p class="review-frame-title">My house sold out fast!</p>
+                    <p class="review-frame-text">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</p>
+                    <div class="review-house-reviewer">
+                        <img src="images/house-reviews-reviewer-photos/reviewerOne.png" alt="reviewer photo">
+                        <h2 class="reviewer-photo">Courtney Henry</h2>
+                        <h1 class="reviewer-job">CEO Andarafish</h1>
+                    </div>
+                    <div class="reviewer-grade">
+                        <img src="images/review-star-icon.svg" alt="star icon">
+                        <p class="reviewer-grade">4.3</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <img src="images/review-house-photos/houseTwo.png" alt="House photo">
+                <div class="house-review-frame">
+                    <p class="review-frame-title">Best! I got the house I wanted through Hounter</p>
+                    <p class="review-frame-text">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+                    <div class="review-house-reviewer">
+                        <img src="images/house-reviews-reviewer-photos/reviewerTwo.png" alt="reviewer photo">
+                        <h2 class="reviewer-photo">Dianne Russell</h2>
+                        <h1 class="reviewer-job">Manager Director</h1>
+                    </div>
+                    <div class="reviewer-grade">
+                        <img src="images/review-star-icon.svg" alt="star icon">
+                        <p class="reviewer-grade">4.6</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <img src="images/review-house-photos/houseThree.png" alt="House photo">
+                <div class="house-review-frame">
+                    <p class="review-frame-title">Through the Hounter, I can get a house for my self</p>
+                    <p class="review-frame-text">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</p>
+                    <div class="review-house-reviewer">
+                        <img src="images/house-reviews-reviewer-photos/reviewerThree.png" alt="reviewer photo">
+                        <h2 class="reviewer-photo">Esther Howard</h2>
+                        <h1 class="reviewer-job">Head of Marketing</h1>
+                    </div>
+                    <div class="reviewer-grade">
+                        <img src="images/review-star-icon.svg" alt="star icon">
+                        <p class="reviewer-grade">4.6</p>
+                    </div>
+                </div>
+            </section>
+            <img src="images/review-page-scroll.png" alt="Page scroller">
+        </section>
+        <img src="images/tips-background-one.svg" alt="Background">
+        <img src="images/tips-background-two.svg" alt="Background">
+
+        <section class="info-about-sell-buy-homes">
+            <h1 class="recommend-text">See tips and trick from our partnership</h1>
+            <h1 class="review-text">Find out more about selling and buying homes</h1>
+            <button class="more-artike-button">More Artike!</button>
+            <aside class="sell-buy-tips">
+                <section class="sell-buy-tip">
+                    <img src="images/house-sell-buy-tips/houseOne.png" alt="House photo">
+                    <div class="tip-person-info">
+                        <img src="images/tip-people-photos/tipperOne.png" alt="Tipper photo">
+                        <h2 class="reviewer-photo">Dianne Russell</h2>
+                    </div>
+                    <p class="tip-title">The things we need to check when we want to buy a house</p>
+                    <div class="tip-timeline">
+                        <img src="images/clock-icon.svg" alt="Time icon">
+                        <h class="tip-time-data">4 min read | 25 Apr 2021</h>
+                    </div>
+                </section>
+                <section class="sell-buy-tip">
+                    <img src="images/house-sell-buy-tips/houseTwo.png" alt="House photo">
+                    <div class="tip-person-info">
+                        <img src="images/tip-people-photos/tipperTwo.png" alt="Tipper photo">
+                        <h2 class="reviewer-photo">Courtney Henry</h2>
+                    </div>
+                    <p class="tip-title"></p>
+                    <div class="tip-timeline">
+                        <img src="images/clock-icon.svg" alt="Time icon">
+                        <h class="tip-time-data">6 min read | 24 Apr 2021</h>
+                    </div>
+                </section>
+                <section class="sell-buy-tip">
+                    <img src="images/house-sell-buy-tips/houseThree.png" alt="House photo">
+                    <div class="tip-person-info">
+                        <img src="images/tip-people-photos/tipperThree.png" alt="Tipper photo">
+                        <h2 class="reviewer-photo">Darlene Robertson</h2>
+                    </div>
+                    <p class="tip-title"></p>
+                    <div class="tip-timeline">
+                        <img src="images/clock-icon.svg" alt="Time icon">
+                        <h class="tip-time-data">2 min read | 24 Apr 2021</h>
+                    </div>
+                </section>
+            </aside>
+            <aside>
+                <section class="tip-main-house">
+                    <img src="images/house-sell-buy-tips/main-house.png" alt="House photo">
+                    <div class="tip-person-info">
+                        <img src="images/tip-people-photos/tipperFour.png" alt="Tipper photo">
+                        <h2 class="reviewer-photo">Cameron Williamson</h2>
+                    </div>
+                    <p class="tip-title">12 Things to know before buying a house</p>
+                    <p class="tip-text">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
+                    <div class="tip-timeline">
+                        <img src="images/clock-icon.svg" alt="Time icon">
+                        <h class="tip-time-data">8 min read | 25 Apr 2021</h>
+                    </div>
+                </section>
+            </aside>
+        </section>
+
+        <section class="subscribe-form">
+            <img src="images/subscribe-form-photos/subscribe-form.png" alt="Subscribe form photo">
+
+            <h1 class="subscribe-data">Subscribe For More Info and update from Hounter</h1>
+            <section class="subscribe-form-left-photos">
+                <img src="images/subscribe-form-photos/houseOne.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/houseTwo.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/personOne.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/personTwo.png" alt="Subscribe form photo">
+            </section>
+            <section class="subscribe-form-right-photos">
+                <img src="images/subscribe-form-photos/houseThree.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/houseFour.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/personThree.png" alt="Subscribe form photo">
+                <img src="images/subscribe-form-photos/personFour.png" alt="Subscribe form photo">
+            </section>
+            <div class="subscribe-from">
+                <img src="images/mail-icon.svg" alt="Mail icon">
+                <p class="subscribe-form-text">Your email here</p>
+                <button class="subscribe-button">Subscribe Now</button>
+            </div>
+        </section>
+        <img src="images/footer-background.svg" alt="Background">
+
+        <footer class="page-end">
+            <aside>
+                <img class="header-logo-img" src="images/logo.svg" alt="Hounter">
+                <span class="header-logo-text">Hounter</span>
+                <p class="footer-under-header-text">
+                    We provide information about properties such as houses, villas and apartments to help people find their dream home
+                </p>
+                <a href="https://www.facebook.com">
+                    <img class="header-logo-img" src="images/social-icons/facebook-icon.svg" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img class="header-logo-img" src="images/social-icons/instagram-icon.svg" alt="Twitter">
+                </a>
+                  <a href="https://www.instagram.com">
+                    <img class="header-logo-img" src="images/social-icons/twitter-icon.svg" alt="Instagram">
+                </a>
+            </aside>
+            <aside>
+                <p class="footer-title">Property</p>
+                <a href="link-to-page1">
+                    <p class="footer-title">House</p>
+                  </a>
+                  <a href="link-to-page2">
+                    <p class="footer-clickable-text">Apartment</p>
+                  </a>
+                  <a href="link-to-page3">
+                    <p class="footer-clickable-text">Villa</p>
+                  </a>
+            </aside>
+            <aside>
+                <p class="footer-title">Article</p>
+                <a href="link-to-page1">
+                    <p class="footer-title">New article</p>
+                  </a>
+                  <a href="link-to-page2">
+                    <p class="footer-clickable-text">Popular Article</p>
+                  </a>
+                  <a href="link-to-page3">
+                    <p class="footer-clickable-text">Most Read</p>
+                  </a>
+                  <a href="link-to-page4">
+                    <p class="footer-clickable-text">Tips & Tricks</p>
+                  </a>
+            </aside>
+            <aside>
+                <p class="footer-title">Contact</p>
+                <p class="footer-text">2464 Royal Ln. Mesa, New Jersey 45463</p>
+                <p class="footer-text">(671) 555-0110</p>
+                <p class="footer-text">info@hounter.com</p>
+            </aside>
+        </footer>
     </main>
-	<script src="index.js"></script>
   </body>
 </html>
