@@ -1,0 +1,1277 @@
+.header-nav{
+    position: absolute;
+    top: 45px;
+    left: 8vw;
+    width: 84vw;
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.about-us-article-property-buttons{
+    position: absolute;
+    width: 350px;
+    right: 10vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-button{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    width: fit-content;
+    height: 46px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    gap: 10px;
+    border: none;
+    background-color: #D1FAE5;
+}
+.first-houseinfo-left-text{
+    position: absolute;
+    top: 190px;
+    left: 8vw;
+}
+.sign-up-house{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 720px;
+    height: 720px;
+}
+.house-example-barinfo-line{
+    position: absolute;
+    left: 3.47vw;
+    bottom: 50px;
+    width: calc(720px - 3.47vw);
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+#house-example-barinfo-one{
+    background-color:white;
+    width: 326px;
+    height: 105px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.barinfo-text{
+    position: relative;
+    left: 0px;
+    height: 46px;
+    width: fit-content;
+}
+#barinfo-one{
+    position: relative;
+    left: 152px;
+}
+#barinfo-two{
+    position: relative;
+    left: 30px;
+}
+#barinfo-three{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+    position: relative;
+    left: 86px;
+    bottom: 110px;
+}
+.barinfo-text-title {
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+    top: 15px;
+}
+.barinfo-three-subtitle{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #68799F;
+    bottom: 120px;
+    left: 85px;
+}
+.barinfo-text-subtitle {
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #68799F;
+    top: 0px;
+}
+.barinfo-image-row-one{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#barinfo-image-row-one{
+    position: absolute;
+    left: 0px;
+}
+#barinfo-image-row-two{
+    position: absolute;
+    left: 28px;
+}
+#barinfo-image-row-three{
+    position: absolute;
+    left: 56px;
+}
+#barinfo-image-row-four{
+    position: relative;
+    top: 24px;
+    left: 24px;
+}
+
+#house-example-barinfo-two{
+    background-color:white;
+    width: 201px;
+    height: 105px;
+    border-radius: 30px;
+    display: flex;
+}
+#house-example-barinfo-three {
+    background-color: white;
+    width: 100px;
+    height: 105px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: inline;
+    justify-content: space-between;
+}
+#barinfo-image-row-five{
+    position: relative;
+    right: 15px;
+}
+.recommend-section{
+    position: relative;
+    top: 440px;
+    left: 8vw;
+    width: 92vw;
+}
+.recommend-header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    top: 0px;
+}
+.featured_house{
+    position: absolute;
+    font-family: "Lexend", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    left: 2.7vw;
+}
+.recommend-house-villa-apartment-buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 29.86vw;
+    width: 34.7vw;
+}
+.left-right-button{
+    position: absolute;
+    right: 8vw;
+}
+
+.house-sellers-sections{
+    position: absolute;
+    width: 88.88vw;
+    left: 2.8vw;
+    top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.house-seller-section{
+    position: relative;
+    width: 340px;
+    /* background-color: black; */
+    /* z-index: -1; */
+}
+.house-seller-section-last{
+    position: relative;
+    /* background-color: black; */
+}
+.house-seller-info{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 340px;
+}
+.house-seller-text{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 55px;
+    /* background-color: black; */
+}
+.house-seller-section-last{
+    width: 140px;
+}
+.seller-name-section{
+    position: absolute;
+    font-size: 18px;
+    top: -15px;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.seller-location{
+    position: absolute;
+    font-size: 14px;
+    top: 10px;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+
+.house-seller-section-frame-one,
+.house-seller-section-frame-two,
+.house-seller-section-frame-three{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    height: 34px;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 10px;
+    left: 16px;
+}
+.seller-section-frame-one{
+    color: #EF4444;
+}
+.house-seller-section-frame-one,
+.house-seller-section-frame-one-one{
+    position: absolute;
+    background-color: #FEE2E2;
+    width: 111px;
+}
+#seller-section-frame-two{
+    color: #1D4ED8;
+}
+.house-seller-section-frame-two{
+    position: absolute;
+    background-color: #DBEAFE;
+    width: 135px;
+}
+#seller-section-frame-three{
+    color:  #047857;
+}
+.house-seller-section-frame-three{
+    position: absolute;
+    background-color: #D1FAE5;
+    width: 130px;
+}
+.seller-section-title{
+    position: absolute;
+    bottom: -72px;
+}
+
+.house-seller-section-frame-one-one{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    height: 34px;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 10px;
+    right: 13px;
+}
+.seller-section-title{
+    position: absolute;
+    font-family: "Lexend", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    bottom: -68px;
+}
+.seller-section-subtitle{
+    position: absolute;
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    bottom: -110px;
+    color: #3C4563;
+}
+.recommend-house-villa-apartment-buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    z-index: 100;
+
+}
+#house-button{
+    background-color: #D1FAE5;
+}
+.houses-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    height: 52px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    gap: 8px;
+    border: 1px solid #E0E3EB;
+    background-color: white;
+}
+.button-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+#house-button .button-text {
+    color: #10B981;
+}
+#recommend-text-block-zero{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 190px;
+    bottom: 30px;
+    right: 30px;
+}
+#recommend-text-block-one{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 190px;
+    top: 30px;
+    right: 70px;
+}
+#recommend-text-block img{
+    width: 32px;
+    height: 1px;
+}
+.recommend-text{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    left: 38px;
+    color: #F59E0B;
+}
+.background-between-first-recommend{
+    position: relative;
+    left: calc(100vw - 440px);
+    top: 1450px;
+}
+#left-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#right-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.ready-sell-house{
+    position: relative;
+    top: 600px;
+    left: 8.3vw;
+}
+.video-houses{
+    position: absolute;
+    width: 488px;
+    height: 416px;
+    top: 0px;
+    left: calc(57.7vw - 120px);
+    border-radius: 4px;
+}
+.sofa-photo {
+    position: absolute;
+    top: 292px;
+    left: calc(55vw - 120px);
+    border-radius: 4px;
+    z-index: 1;
+}
+.flowers-photo{
+    position: absolute;
+    left: max(calc(76.3vw - 120px), 830px);
+    top: 380px;
+    z-index: 1;
+}
+.chair-photo{
+    position: absolute;
+    left: max(calc(83.6vw - 120px), 925px);
+    top: 380px;
+    z-index: 1;
+}
+
+.ready-sell-house-data{
+    position: relative;
+}
+.recommend-under-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+}
+.ready-sell-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #626687;
+}
+.house-characteristic{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    justify-content:space-around;
+}
+#bedrooms-characteristic{
+    position: absolute;
+    bottom: 85px;
+}
+#carpart-characteristic{
+    position: absolute;
+    bottom: 45px;
+}
+#bathrooms-characteristic{
+    position: absolute;
+    left: 17vw;
+    bottom: 85px;
+}
+#floors-characteristic{
+    position: absolute;
+    left: 17vw;
+    bottom: 45px;
+}
+.ready-sell-details-title{
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+}
+.house-characteristic-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3C4563;
+}
+#ready-sell-down-text{
+    position: relative;
+    bottom: 10px;
+}
+#recommend-text-block-two{
+    position: relative;
+    left: 1000px;
+    background-color: black;
+}
+.ready-sell-house-seller{
+    position: relative  ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 100px;
+    left: 0px;
+}
+.ready-sell-house-seller img{
+    position: relative;
+    right: 35px;
+}
+.seller-name{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    top: -40px;
+    right: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.seller-job{
+    position: relative;
+    top: 30px;
+    right: 40px;
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.call-button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 140px;
+    height: 30px;
+    padding: 12px 16px;
+    border-radius: 32px;
+    gap: 16px;
+    background-color: #10B981;
+    bottom: 8px;
+    cursor: pointer;
+}
+.call-button img{
+    position: relative;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+}
+.call-button-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.review-house{
+    position: relative;
+    top: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.review-text-one{
+    position: relative;
+    top: 770px;
+    font-family: "Lexend", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    left: 34vw;
+}
+.house-review-frame {
+    position: relative;
+    width: 612px;
+    height: 249px;
+    padding: 32px;
+    border-radius: 16px;
+    gap: 24px;
+    bottom: 170px;
+    left: 32px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(89, 92, 219, 0.13);
+}
+.review-frame-title{
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+}
+.review-frame-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #626687;
+}
+.main-house-photo{
+    width: 740px;
+    height: 400px;
+}
+.reviewer-information{
+    display: flex;
+    flex-direction: row;
+}
+.reviewer-grade{
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3C4563;
+}
+.reviewer-grade-block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 74px;
+    height: 28px;
+    left: 280px;
+}
+.review-house-reviewer{
+    display: flex;
+    flex-direction: row;
+
+}
+.review-house-reviewer{
+    position: relative;
+    left: 10px;
+}
+.reviewer-photo{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    top: -16px;
+    left: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.reviewer-job{
+    position: relative;
+    top: 10px;
+    left: -76px;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.review-house-reviewer img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.star-class{
+    position: relative;
+    right: 10px;
+}
+.review-house-column-left{
+    position: relative;
+    right: 384px;
+}
+.review-house-column-middle{
+    position: relative;
+    right: 310px;
+}
+.review-house-column-right{
+    position: relative;
+    right: 235px;
+}
+
+
+.review-text-two,
+.review-text-three{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1B1C57;
+}
+.review-text-two{
+    position: relative;
+    right: 90px;
+    bottom: 100px;
+}
+.review-text-three{
+    position: relative;
+    right: 90px;
+    bottom: 120px;
+}
+.recommend-text-block-three{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    top: 800px;
+    left: 42vw;
+}
+.recomend-text-block-three-trianle{
+    position: relative;
+    left: 37px;
+}
+.recommend-text-block-four{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    bottom: 70px;
+    left: 29.5vw;
+}
+.more-artike-button{
+    position: relative;
+    width: 118px;
+    height: 46px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 32px;
+    gap: 16px;
+    border: none;
+    background-color: #10B981;
+    color: white;
+    left: 37.5vw;
+    bottom: 100px;
+}
+
+.footer-clickable-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.info-about-sell-buy-homes{
+    position: relative;
+    top: 200px;
+    left: 8.3vw;
+}
+.sell-buy-tips{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.sell-buy-tip{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.tip-person-info{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 200px;
+    bottom: 70px;
+}
+.reviewer-photo-downside{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3C4563;
+    bottom: 10px;
+    right: 10px;
+}
+.tip-title{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+}
+.tip-time-data{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.tip-timeline{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 270px;
+    top: 63px;
+}
+#second-timeline{
+    position: relative;
+    right: 254px;
+}
+#third-timeline{
+    position: relative;
+    right: 280px;
+}
+
+.tip-timeline img{
+    width:20px;
+    height: 20px;
+}
+.tip-title-class {
+    position: relative;
+    top: 22px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tip-title-class > * {
+    margin-bottom: -20px;
+}
+.sell-buy-tips > * {
+    margin-bottom: 45px;
+}
+.tip-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #626687;
+}
+.tip-main-house{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 46.5vw;
+    top: 214px;
+}
+.tip-main-house-photo{
+    width: 560px;
+    height: 280px;
+}
+.tip-person-info-one{
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tip-text-data{
+    position: relative;
+    bottom: 65px;
+}
+.tip-text-data > *{
+    margin-bottom: -20px;
+}
+.tip-title-one{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+    bottom: 45px;
+}
+#main-timeline{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 30px;
+}
+.subscribe-text{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #1B1C57;
+    bottom: 290px;
+    left: 250px;
+}
+.subscribe-text > *{
+    margin-bottom: -30px;
+}
+.subscribe-from{
+    position: relative;
+    bottom: 450px;
+    left: 292px;
+    width: 496px;
+    height: fit-content;
+    padding: 4px 4px 4px 24px;
+    border-radius: 32px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.subscribe-button{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 16px 12px 16px;
+    border-radius: 32px;
+    gap: 4px;
+    background-color: #10B981;
+    right: -210px;
+    top: 3px;
+    color: white;
+    border: none;
+}
+.subscribe-form-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.subscribe-form{
+    position: relative;
+    left: 8vw;
+    top: 300px;
+}
+
+#one{
+    position: relative;
+    bottom: 300px;
+    left: 160px;
+}
+#two{
+    position: relative;
+    bottom: 400px;
+    left: 0px;
+}
+#three{
+    position: relative;
+    bottom: 350px;
+}
+#four{
+    position: relative;
+    bottom: 270px;
+    right: 207px;
+}
+#five{
+    position: relative;
+    left: 920px;
+    bottom: 520px;
+}
+#six{
+    position: relative;
+    left: 990px;
+    bottom: 400px;
+}
+#seven{
+    position: relative;
+    left: 780px;
+    bottom: 390px;
+}
+#eight{
+    position: relative;
+    left: 780px;
+    bottom: 480px;
+}
+
+
+#footer-header-logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1B1C57;
+}
+.social-ref{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 144px;
+    height: 32px;
+}
+.footer-background-image{
+    position: relative;
+    bottom: 50px;
+    left: 750px;
+}
+
+.footer-one{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.page-end{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 400px;
+    left: 2.5vw;
+}
+.footer-under-header-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #626687;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-title{
+    font-family: "Lexend", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0E1735;
+}
+.footer-one{
+    position: relative;
+    left: 70px;
+}
+.social-refs{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 144px;
+    justify-content: space-between;
+    align-self: center;
+    top: 20px;
+}
+.header-logo-img-fb{
+    position: relative;
+    bottom: 7px;
+}
+.start-title {
+    position: relative;
+    display: flex;
+    flex-direction: row;;
+    font-family: "Lexend", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.transparent-text {
+    background-color: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.text-container-start > * {
+    margin-bottom: -35px;
+}
+
+.text-container-start > * {
+    margin-bottom: -35px;
+}
+.start-subtitle{
+    position: relative;
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #626687;
+    top: 20px;
+}
+.search-container{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 496px;
+    height: 56px;
+    padding: 4px 4px 4px 24px;
+    border-radius: 32px;
+    border: 1px solid #E0E3EB;
+}
+.search-text-start{
+    position: relative;
+    font-family: "Lexend", sans-serif;;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+    right: 50px;
+}
+.search-button{
+    width: 109px;
+    height: 48px;
+    padding: 12px 16px 12px 16px; /* top right bottom left */
+    border-radius: 32px;
+    gap: 4px; /* Note: The `gap` property is typically used in grid or flex layouts */
+    color: white;
+    background-color: #10B981;
+    border: none;
+}
+.transparent-text{
+    position: relative;
+    left: 10px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1B1C57;
+}
+.start-subtitle-text > *{
+    position: relative;
+    top: 40px;
+    margin-bottom: -20px;
+}
+.partnership-text{
+    position: relative;
+    top: 90px;
+    font-family: "Lexend", sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #888B97;
+}
+.partnership-links{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 427px;
+    justify-content: space-between;
+}
+.language-select{
+    width: fit-content;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 32px;
+    border: 1px solid #FFFFFF4D;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.header-link{
+    position: relative;
+    width: fit-content;
+    height: 14px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 32px;
+    border: 1px solid #FFFFFF4D;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    bottom: 0px;
+}
+.about-us-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.sigh-up-text{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #047857;
+}

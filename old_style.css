@@ -1,0 +1,49 @@
+
+
+#house-example-barinfo-one{
+    background-color:white;
+    padding: 30px;
+    width: 330px;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+}
+#house-example-barinfo-two{
+    background-color:white;
+    padding:30px;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+
+}
+#house-example-barinfo-three{
+    background-color:white;
+    padding:30px;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.barinfo-image-row{
+    display: flex;
+}
+
+.recommend-section{
+    position: absolute;
+    top: 840px;
+    left: 120px;
+    width: 1230px;
+}
+
+.recommend-header{
+    display: flex;
+}
+
+.background-between-first-recommend{
+    position: absolute;
+    top: 1452px;
+    left: 1040px;
+}
+
